@@ -1,7 +1,7 @@
-// 1) For each multiple of 3 set result to "Code"
-// 2) For each multiple of 5 set result to "Next"
-// 3) For numbers which are multiples of both 3 and 5 set result to "CodeNext"
-// 4) For numbers which are neither multiples of 3 or 5 set result to ""
+// 1) If number is a multiple of 3 set result equal to "Code"
+// 2) If number is a multiple of 5 set result equal to "Next"
+// 3) If number is a multiple of 3 and a multiple of 5 set result equal to "CodeNext"
+// 4) If number is a not a multiple of 3 and not a multiple of 5 set result equal to ""
 function fizzBuzz(number) {
   // ---- TODO Follow instructions above -----
   let result;
